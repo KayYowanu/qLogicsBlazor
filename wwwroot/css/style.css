@@ -22,7 +22,9 @@ h1, h2, h3, h4, h5, h6 {
 .icon-color {
     background: #610a04;
 }
-
+.margintop{
+    margin-top:100px;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -31,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.5s;
     z-index: 997;
     background: #fff;
-    width:100%;
+    width: 100%;
     position: fixed;
 }
     #header.header-fixed {
@@ -108,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
         }
 
         .navbar a:hover, .navbar .active, .navbar li:hover > a {
-            color: #610a04;
+            color: #0a55bf;
         }
 
     .navbar .getstarted {
