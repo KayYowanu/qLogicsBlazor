@@ -514,7 +514,7 @@ section {
         margin: 0 auto;
         width: 64px;
         height: 64px;
-        background: #e96b56;
+        background: #610a04;
         border-radius: 5px;
         transition: all .3s ease-out 0s;
         display: flex;
@@ -536,7 +536,7 @@ section {
             top: -8px;
             height: 100%;
             width: 100%;
-            background: #fbe2dd;
+            background: #a65a53;
             border-radius: 5px;
             transition: all .3s ease-out 0s;
             transform: translateZ(-1px);
@@ -559,8 +559,8 @@ section {
     }
 
     .services .icon-box:hover {
-        background: #e96b56;
-        border-color: #e96b56;
+        background: #610a04;
+        border-color: #610a04;
     }
 
         .services .icon-box:hover .icon {
@@ -568,11 +568,11 @@ section {
         }
 
             .services .icon-box:hover .icon i {
-                color: #e96b56;
+                color: #610a04;
             }
 
             .services .icon-box:hover .icon::before {
-                background: #ef9383;
+                background: #a65a53;
             }
 
         .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -602,7 +602,7 @@ section {
     .skills .content ul i {
         font-size: 20px;
         padding-right: 4px;
-        color: #e96b56;
+        color: #610a04;
     }
 
 .skills .content p:last-child {
@@ -639,7 +639,7 @@ section {
     width: 1px;
     height: 10px;
     transition: .9s;
-    background-color: #e96b56;
+    background-color: #610a04;
 }
 
 /*--------------------------------------------------------------
