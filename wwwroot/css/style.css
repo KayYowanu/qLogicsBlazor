@@ -23,7 +23,10 @@ h1, h2, h3, h4, h5, h6 {
     background: #610a04;
 }
 .margintop{
-    margin-top:100px;
+    margin-top:50px;
+}
+.margintop50 {
+    margin-top: 80px;
 }
 /*--------------------------------------------------------------
 # Header
@@ -403,6 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+
 section {
     padding: 60px 0;
     overflow: hidden;
@@ -504,8 +508,8 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
     text-align: center;
-    border: 2px solid #ededed;
-    padding: 80px 20px;
+    border: 80px solid #ededed;
+    padding: 10px 20px;
     transition: all ease-in-out 0.3s;
     background: white;
 }
@@ -641,7 +645,6 @@ section {
     transition: .9s;
     background-color: #610a04;
 }
-
 /*--------------------------------------------------------------
 # Contact Page
 --------------------------------------------------------------*/
@@ -769,4 +772,3 @@ section {
     100% {
         transform: rotate(360deg);
     }
-}
