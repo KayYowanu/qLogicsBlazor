@@ -1,16 +1,28 @@
 ﻿@page "/about"
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container margintop">
 
-<h1>Counter</h1>
+        <div class="section-title" data-aos="zoom-out">
+            <div class="content">
+                <h3>Our Corporation</h3>
+                </div>
+            </div>
 
-<p>Current count: @currentCount</p>
+            <div class="row content" data-aos="fade-up">
+                <div class="col-lg-6">
+                    <p>
+                        qLogics is a qLogic.com Technologies Inc. The business was founded by Brent Welke in 1994 as one of the first  ISP's in Victoria and was operating as SmartWare 
+                        Technologies. The business grew rapidly and our clientele expanded to include may well-established Victoria based businesses. SmartWare Technologies was incorporated
+                        in July 2000 and qLogics was born.
+                    </p>
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0">
+                    <p>
+                        Our president, Brent Welke, has been designing databases since 1993 and has worked exclusively within.....
+                    </p>
+                </div>
+            </div>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
-@code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
-}
+        </div>
+</section><!-- End About Section -->
